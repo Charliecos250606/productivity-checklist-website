@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Productivity Checklist</title>
+    <link rel="stylesheet" href="question.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>THE PRODUCTIVITY CHECKLIST</h1>
+      <img src="productivity.png" alt="book-cover" class="header-img" />
+      <form action="GET" id="form"></form>
+      <div class="nav-btns">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+        <button id="calculateBtn">Get Score</button>
+      </div>
+
+      <p class="progresstext">Progress: <span class="progressValue"></span></p>
+      <div class="progressBar">
+        <span class="progressRead"></span>
+      </div>
+
+      <p>Total Score: <span id="score">0</span></p>
+      <script src="question.js"></script>
+    </div>
+  </body>
+</html>
